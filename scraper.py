@@ -38,8 +38,6 @@ def send_mail():
     print("Mail sent!!")
 
 
-i = 0
-while i != 5:
+while True:
     check_price()
     time.sleep(43200)
-    i += 1
